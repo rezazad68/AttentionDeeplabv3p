@@ -61,7 +61,7 @@ You can download the learned weights for each dataset in the following table.
 Dataset |Learned weights
 ------------ | -------------
 [ISIC 2018](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[Deeplabv3pa](https://drive.google.com/file/d/10S9ewav837izWaraOlUB8OOQoWY9szzU/view?usp=sharing)
-[ISIC 2017](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[Deeplabv3pa]()
+[ISIC 2017](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[Deeplabv3pa](https://drive.google.com/file/d/1hXy-gKCHIG8myY9R4lB6GYE7xxbqM_Hj/view?usp=sharing)
 [Ph2](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) | [Deeplabv3pa](https://drive.google.com/file/d/1Ni9PldLL9bMYlyjcRxgDitr-MR6o-RY4/view?usp=sharing)
 
 
