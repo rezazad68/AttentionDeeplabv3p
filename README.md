@@ -33,7 +33,7 @@ Follow step 3 and 4 for model traing and performance estimation. For ph2 dataset
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/AttentionDeeplabv3p/blob/master/images/aggregation.png)
+![Diagram of the proposed method](https://github.com/rezazad68/AttentionDeeplabv3p/blob/master/images/aggregation2.png)
 ### Segmentation visualization
 ![ISIC 2018](https://github.com/rezazad68/AttentionDeeplabv3p/blob/master/images/result.png)
 
