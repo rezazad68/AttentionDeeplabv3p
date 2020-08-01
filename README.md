@@ -1,9 +1,8 @@
-# [Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
+# [Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation](https://www.bioimagecomputing.com/program/selected-contributions/)
 
-
-Deep auto-encoder-decoder network for medical image segmentation with state of the art results on skin lesion segmentation, lung segmentation, and retinal blood vessel segmentation. This method applies bidirectional convolutional LSTM layers in U-net structure to non-linearly encode both semantic and high-resolution information with non-linearly technique. Furthermore, it applies densely connected convolution layers to include collective knowledge in representation and boost convergence rate with batch normalization layers. If this code helps with your research please consider citing the following papers:
+Implementation of Attention Deeplabv3+, an extended version of Deeplabv3+ for skin le-sion segmentation by employing the idea of attention mechanism in two stages.We first capture the relationship between the channels of a set of feature mapsby assigning a weight for each channel (i.e., channels attention). Channel atten-tion allows the network to emphasize more on the informative and meaningful channels by a context gating mechanism. It also exploit the second level atten-tion strategy to integrate different layers of the atrous convolution. It helps thenetwork to focus on the more relevant field of view to the target. If this code helps with your research please consider citing the following papers:
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation ",ECCV, 2020, download [link](https://arxiv.org/pdf/1909.00166.pdf).
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation ",ECCV, 2020, download [link](https://www.bioimagecomputing.com/program/selected-contributions/).
 
 ## Updates
 - Augest 1, 2020: Complete implemenation for SKin Lesion Segmentation task on three different data set has been released.
@@ -15,7 +14,6 @@ This code has been implemented in python language using Keras libarary with tens
 - Python 3
 - Keras 
 - tensorflow backend
-
 
 ## Run Demo
 For training deep model and evaluating on each data set follow the bellow steps:</br>
