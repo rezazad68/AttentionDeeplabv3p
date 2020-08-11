@@ -64,4 +64,11 @@ Dataset |Learned weights
 [ISIC 2017](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) |[Deeplabv3pa](https://drive.google.com/file/d/1hXy-gKCHIG8myY9R4lB6GYE7xxbqM_Hj/view?usp=sharing)
 [Ph2](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) | [Deeplabv3pa](https://drive.google.com/file/d/1Ni9PldLL9bMYlyjcRxgDitr-MR6o-RY4/view?usp=sharing)
 
+### Query
+All implementation done by Reza Azad. For any query please contact us for more information.
+
+```python
+rezazad68@gmail.com
+
+```
 
