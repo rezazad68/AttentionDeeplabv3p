@@ -1,4 +1,4 @@
-# [Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation](https://www.bioimagecomputing.com/program/selected-contributions/)
+# [Attention Deeplabv3+: Multi-level Context Attention Mechanism for Skin Lesion Segmentation](https://openreview.net/pdf?id=oMQOHIS1JWy)
 
 Implementation of Attention Deeplabv3+, an extended version of Deeplabv3+ for skin lesion segmentation by employing the idea of attention mechanism in two stages. In this method, the relationship between the channels of a set of feature maps by assigning a weight for each channel (i.e., channels attention) is captured. In which channel atten-tion allows the network to emphasize more on the informative and meaningful channels by a context gating mechanism. It also exploit the second level attention strategy to integrate different layers of the atrous convolution. It helps thenetwork to focus on the more relevant field of view to the target. If this code helps with your research please consider citing the following papers:
 </br>
